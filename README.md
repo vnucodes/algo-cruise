@@ -8,7 +8,7 @@ Of course these solutions can be better!! and they will get better, it's just ma
 - [Two Sum](https://github.com/vnucodes/algo-cruise/blob/master/problems/Two-Sum.js)
 - [Longest palindromic substring](https://github.com/vnucodes/algo-cruise/blob/master/problems/Longest-Palindromic-Substring.js)
 
-#### Median of two sorted array
+### Median of two sorted array
 ```javascript
 /**
  * Two sum
@@ -27,7 +27,9 @@ let twoSum = function(nums, target) {
     try { 	
         
         // throw error if, nums / target is undefined			    
-        if ( typeof nums == 'undefined' || typeof target == 'undefined' ) throw new Error('Error!! Invalid Params!');
+        if ( typeof nums == 'undefined' || typeof target == 'undefined' ) {
+            throw new Error('Error!! Invalid Params!')
+        }
 
         var twoSum = [], numToFind, numToFindIndex;
 
