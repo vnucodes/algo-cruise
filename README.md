@@ -21,7 +21,7 @@ Of course these solutions can be better!! and they will get better, it's just ma
  * @param {number} target - target
  * @returns {number[]} indices
  * 
-*/
+ */
 
 let twoSum = function(nums, target) {
 
@@ -82,7 +82,7 @@ console.log( 'Case 02 : ', indices_2 ) // Ans : [0, 1]
  * @param {number} target - target
  * @returns {number[]} indices
  * 
-*/
+ */
 
 let twoSum = function(nums, target) {
 
@@ -142,7 +142,7 @@ console.log( 'Case 02 : ', indices_2 ) // Ans : [0, 1]
  * @param {string} s - haystack string
  * @returns {string} - longest palindrome
  * 
-*/
+ */
 
 var longestPalindrome = function(s) {
 
